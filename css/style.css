@@ -1,0 +1,10 @@
+html,body{
+  margin: 0 auto;
+  background-color: black;
+  color: #ff1ac6;
+  font-size: 20px;
+}
+
+form{
+  color: #ff1ac6;
+}
