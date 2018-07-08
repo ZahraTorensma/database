@@ -20,13 +20,13 @@ th {text-align: left;}
 <?php
 $q = intval($_GET['q']);
 
- $con = mysqli_connect('localhost','root','root','23519_leerjaar1');
+ $con = **maakt connectie**
  if (!$con) {
      die('Could not connect: ' . mysqli_error($con));
  }
 
  mysqli_select_db($con,"ajax_demo");
- $sql="SELECT * FROM fro_ajax_database WHERE id = '".$q."'";
+ $sql="SELECT * FROM database WHERE id = '".$q."'";
  $result = mysqli_query($con,$sql);
 
  echo "<table>
